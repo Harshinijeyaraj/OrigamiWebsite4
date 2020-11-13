@@ -1,0 +1,68 @@
+
+.butterfly{
+
+    background-color : darkmagenta;
+    display : flex;
+    justify-content:space-around;
+
+}
+
+.main{
+    background-color : crimson;
+    display : flex;
+    justify-content:space-evenly;
+    
+}
+
+.crane{
+    background-color : darkturquoise;
+    display : flex;
+    justify-content:space-around;
+}
+   
+
+
+.lotus{
+    background-color : darkviolet;
+    display : flex;
+    justify-content:space-around;
+}
+
+
+.pigeon{
+
+    background-color : deeppink;
+    display : flex;
+    justify-content:space-around;
+}
+
+.panda{
+
+    background-color : turquoise;
+    display : flex;
+    justify-content:space-around;
+}
+
+h2 {
+    color:black;
+}
+
+body{
+    background-color : rgb(115, 255, 255);
+}
+
+.item p{
+    position:absolute;
+    top: 10%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    
+}
+.item:hover p{
+    opacity:20;
+     
+    color: darkviolet;
+    
+    
+}
